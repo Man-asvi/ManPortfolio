@@ -1,3 +1,33 @@
+/* Custom Certification Card Styling for About Page (matches Education Card) */
+.certification-card {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(249,24,128,0.10), 0 1.5px 6px rgba(0,0,0,0.18);
+}
+.certification-card h5,
+.certification-card .card-title {
+  color: var(--contrast-color);
+  font-weight: 700;
+}
+.certification-card p {
+  color: #ffd6e6;
+  margin-bottom: 0.25rem;
+}
+.certification-card i, .certification-card .fa-graduation-cap {
+  color: var(--contrast-color);
+  background: #fff0fa1a;
+  border-radius: 50%;
+  padding: 12px;
+}
+.certification-logo {
+  max-width: 75px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  padding: 5px;
+}
 /* Fonts */
 
 :root {
